@@ -40,6 +40,6 @@ public class NaturalPerson extends Person {
     public void setParents(NaturalPerson[] parents) {
         this.parents = parents;
     }
-
+    
     
 }
