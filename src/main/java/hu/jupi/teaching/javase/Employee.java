@@ -11,7 +11,7 @@ public class Employee {
     private Currency salaryCurrency;
     private BigDecimal salaryAmount;
     private String position;
-    private Person[] superiors;
+    private Employee[] superiors;
     private Date employmentStartDate;
 
     public NaturalPerson getEmployeePerson() {
@@ -62,11 +62,11 @@ public class Employee {
         this.salaryCurrency = salaryCurrency;
     }
 
-    public Person[] getSuperiors() {
+    public Employee[] getSuperiors() {
         return superiors;
     }
 
-    public void setSuperiors(Person[] superiors) {
+    public void setSuperiors(Employee[] superiors) {
         this.superiors = superiors;
     }
     

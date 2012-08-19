@@ -7,7 +7,8 @@ public class NaturalPerson extends Person {
     private Gender gender;
     private Date dateOfBirth;
     private String email;
-    private NaturalPerson[] parents;
+    private NaturalPerson mother;
+    private NaturalPerson father;
 
     public Date getDateOfBirth() {
         return dateOfBirth;
@@ -33,13 +34,20 @@ public class NaturalPerson extends Person {
         this.gender = gender;
     }
 
-    public NaturalPerson[] getParents() {
-        return parents;
+    public NaturalPerson getFather() {
+        return father;
     }
 
-    public void setParents(NaturalPerson[] parents) {
-        this.parents = parents;
+    public void setFather(NaturalPerson father) {
+        this.father = father;
     }
-    
+
+    public NaturalPerson getMother() {
+        return mother;
+    }
+
+    public void setMother(NaturalPerson mother) {
+        this.mother = mother;
+    }
     
 }

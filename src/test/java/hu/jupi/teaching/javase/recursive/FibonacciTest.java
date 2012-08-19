@@ -5,23 +5,23 @@ import static org.junit.Assert.*;
 
 public class FibonacciTest {
     
-    public static final long FIBONACCI_45_TH_VALUE = 1134903170L;
+    public static final long FIBONACCI_42_TH_VALUE = 267914296L;
 
     private Fibonacci fibonacci = new Fibonacci();
 
     @Test
-    public void testFibonacci_45() {
-        assertEquals(FIBONACCI_45_TH_VALUE, fibonacci.fibonacci(45));
+    public void testFibonacci_42() {
+        assertEquals(FIBONACCI_42_TH_VALUE, fibonacci.fibonacci(42));
     }
 
     @Test
-    public void testFibonacci2_45() {
-        assertEquals(FIBONACCI_45_TH_VALUE, fibonacci.fibonacci2(45));
+    public void testFibonacci2_42() {
+        assertEquals(FIBONACCI_42_TH_VALUE, fibonacci.fibonacci2(42));
     }
 
     @Test
-    public void testFibonacci3_45() {
-        assertEquals(FIBONACCI_45_TH_VALUE, fibonacci.fibonacci3(45));
+    public void testFibonacci3_42() {
+        assertEquals(FIBONACCI_42_TH_VALUE, fibonacci.fibonacci3(42));
     }
     
      @Test
